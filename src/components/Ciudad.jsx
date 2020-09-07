@@ -1,7 +1,6 @@
 import React from "react";
 
-export default function Ciudad({city}) {
-   
+export default function Ciudad({city}) { 
     if(city === null){
         return (
             <div className="container">
