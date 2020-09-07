@@ -2,9 +2,9 @@ import React from 'react';
 import './About.css';
 
 export default function About(){
-       return (<div className="divContainer">
-            <h2><span>Weather App</span></h2>
-            <p className="textContainer">
+       return (<div className="container pt-3 pb-4">
+            <h2><span className="card-title">Weather App</span></h2>
+            <p className="card-text">
                 In the "Weather App" (In spanish, "app del clima")
                 we will find the climates of the cities, which
                 we can search within the browser that
